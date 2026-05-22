@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>My Personal Page</title>
+    <body style="background-color: #90EE90;">
+</head>
+
+<style>
+header{
+    background-color:#2E8B57;
+    text-align:center;
+  
+}
+
+footer{
+     background-color:#2E8B57;
+     text-align:center;
+}
+
+nav{
+    background:#333;
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+}
+
+nav ul li{
+    margin:5px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:#90EE90;
+}
+
+form{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:300px;
+}
+
+input, button{
+    width:95%;
+    padding:8px;
+    margin-top:5px;
+}
+</style>
+
+<body>
+
+    
+    <header>
+        <h1>GROUP 1</h1>
+        <a>welcome to our page</a>
+        <br>
+        <br>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>About Me</h2>
+            <p>Hello! We are Group 1, students currently studying HTML and web development. We are interested in creating websites and exploring new technologies to improve our skills in the field of web development.</p>
+        </article>
+
+        <h3>My Interests:</h3>
+        <ul>
+            <li>Programming</li>
+            <li>Art & Design</li>
+            <li>Gaming</li>
+        </ul>
+    </section>
+
+  
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120"><br><br>
+
+            <button type="submit">Submit</button>
+           
+            
+        </form>
+    </section>
+
+ 
+    <footer>
+        <p>&copy; 2026 GROUP 1. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
